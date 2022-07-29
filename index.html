@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Pinewood</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#schoolcampus">School Campus</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#whatsnew">Whats New</a></li>
+                <li><a href="#funfacts">Fun facts</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="announcement">
+        <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+            Where is my school? It is in Lutherville Timounioum.
+            What is its rating? It has a 9/10.
+        </marquee>
+    </div>
+
+    <img src="http://p3cdn4static.sharpschool.com/userfiles/servers/server_163285/image/national%20blue%20ribbon%20lifetouch%20photo.jpg">
+
+    <h1 id="schoolcampus"> School Campus</h1>
+    <div> <img class="campus" data-target="schoolcampus"  src="https://www.baltimoresun.com/resizer/5TtD04aRB2awCTAuD9T4GK_88c8=/1200x0/top/www.trbimg.com/img-59123d97/turbine/ph-tt-pinewoodadvancer-20170510">
+        <h3> This is the front of pinewood.</h3>
+    </div>
+
+    <h1 id="achievements">Achievements</h1>
+
+    <div class="bg-primary movies_head" data-toggle="collapse" data-target="#blueribbon">
+        <span class="glyphicon glyphicon-film"></span>
+        Blue Ribbon <i class="fa fa-sort-desc "> </i>
+    </div>
+
+    <div id="blueribbon" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img class="img-responsive img-thumbnail" src="https://www.gannett-cdn.com/presto/2020/09/25/NDOV/222ebb9f-a317-4f14-a1c4-20f8b50e6270-1200px-National_Blue_Ribbon_Schools_seal.svg.png?crop=1199,675,x0,y180&width=1199&height=675&format=pjpg&auto=webp">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">
+            </h5>
+            <p> Pinewood won a blue ribbon reward twice in a row. A blue ribbon reward isa reward for being one of the best schools in the country. And we have two. These rewards are really hard to get. You have to come because getting a blue ribbon means you are a very good school. </p>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <h1 id="whatsnew"> Whats New</h1>
+    
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" data-target="whatsnew">
+            
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 animal_li">
+                <h4> Pinewood has now opened 4 days back to school for people who want to come.</h4>
+                <img src="https://www.thoughtco.com/thmb/BFKJiLGUDoJlg8qCpVcwMkB1ZTs=/2000x1333/filters:fill(auto,1)/GettyImages-141090015-5ad4786efa6bcc0036b494de.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="col-lg-7 col-md-7 col-sm-7 col-xs-12">Pinewood has now opened 4 days back to school for people who want to come. Wednesday is a catch up day where we complete work that we need to complete at home. Most people are coming back from quarintine and it is super fun being able to hang out with friends. If you come  you will make friends to.</p>
+            </li>
+            
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 animal_li">
+                <h4> We still have to follow safety procautions</h4>
+                <img src="https://c.files.bbci.co.uk/16E7D/production/_112412839_0c2a58a5-61a1-4191-8a08-63103fc4ea65.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="col-lg-7 col-md-7 col-sm-7 col-xs-12"> Even though we are back we still follow safety procautions. We have to wear a mask, and social distance. We also have assigned seats on the bus. At lunch we must stay 6 ft apart. These guidlines are annoying but they are for our safety.</p>
+            </li>
+            
+            <h1 id="funfacts"> Fun Facts</h1>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" data-target="funfacts">
+            <ul>
+                <h4>Pinewood is located in a neighbor hood.</h4>
+                <h4>Pinewood has a tennis, basketball, baseball, and soccer court/field.</h4>
+                <h4> You can come to play at the playground when the school is closed if you like. </h4>
+                
+            </ul>
+            </div>
+            
+            <div>
+                <section>
+                    
+                    
+        <h1 id="contactus"> Contact Us</h1>
+<div class="page-header col-lg-9 col-md-9 col-sm-9 col-xs-12" data-target="#contactus">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.1155046016315!2d-76.64093508503524!3d39.4441212794901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80e02d5fea4b3%3A0xe9168eecb45579d5!2sPinewood%20Elementary%20School!5e0!3m2!1sen!2sus!4v1620511339623!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <h3> My Principal is</h3>
+        <h4> Mrs, Rueter</h4>
+
+    </section>
+
+        </div>
+            </div>
+
+</body>
+    
+    </html>
+
+
+
+
+
+
+
